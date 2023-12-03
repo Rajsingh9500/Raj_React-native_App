@@ -1,22 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
+import {Dimensions, ImageBackground, Text, View } from 'react-native';
+import React from "react";
+import styles from "./style";
+/*  const a = Dimensions.get('screen').height; */
+/* alert(`width  = ${Dimensions.get('screen').fontScale}`) */
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>hey man vaibhav cc</Text>
-      <Text>madarchod kashish chod</Text>
-      <StatusBar style="auto" />
+   <> 
+   <ImageBackground  style ={styles.a} source={require('./assets/images/dasa.jpg')}>
+   <View style = {styles.a}>
+   <Text>hekllo</Text>
+  </View>
+  <View style = {styles.a}>
+    <Text>
+      hey coder
+    </Text>
     </View>
+    </ImageBackground>
+    </>
+  
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
 
