@@ -10,7 +10,7 @@
       fontSize:'30px',
       padding:'10%',
       width:'80%',
-      marginLeft:"20",
+      marginLeft:20,
       marginTop:'30%',
       fontWeight:'bold',
       
@@ -22,7 +22,6 @@
      
       fontStyle:'italic',
 
-      zIndex:1,
       height:'60%',
       fontSize:50,
       

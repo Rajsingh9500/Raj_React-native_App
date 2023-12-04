@@ -13,7 +13,7 @@ export default function App() {
    <Text>Discover Mindfull hiking</Text>
   </View>
   <ImageBackground style = {styles.b} source={require('./assets/images/pic2.jpg')}>
-  <View style = {styles.b}>
+  <View style = {styles.b  }>
     <Text>
       hey coder
     </Text>
@@ -23,7 +23,7 @@ export default function App() {
     </>
   
   );
-}
+} 
 
 
 
