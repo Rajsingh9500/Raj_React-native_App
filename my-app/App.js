@@ -8,20 +8,23 @@ import styles from "./style";
 export default function App() {
   return (
    <> 
-   <ImageBackground  style ={styles.a} source={require('./assets/images/dasa.jpg')}>
+   <ImageBackground  style ={styles.img} source={require('./assets/images/pic1.jpg')}>
    <View style = {styles.a}>
-   <Text>hekllo</Text>
+   <Text>Discover Mindfull hiking</Text>
   </View>
-  <View style = {styles.a}>
+  <ImageBackground style = {styles.b} source={require('./assets/images/pic2.jpg')}>
+  <View style = {styles.b}>
     <Text>
       hey coder
     </Text>
     </View>
+  </ImageBackground>
     </ImageBackground>
     </>
   
   );
 }
+
 
 
 

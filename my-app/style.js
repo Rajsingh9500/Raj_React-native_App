@@ -1,31 +1,32 @@
-/* import { StyleSheet } from 'react-native';
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-     padding : '50',
-     height: '30%',
-      backgroundColor: 'red',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-    a: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: 'center',
-      backgroundColor: 'yellowgreen',
-    }
-  }); */
+
 
   import { StyleSheet } from "react-native";
   const styles = StyleSheet.create({
+   img:{
+    flex:1,
+   },
     a:{
-      flex : 1,
+     flex:1,
+      fontSize:'30px',
+      padding:'10%',
+      width:'80%',
+      marginLeft:"20",
+      marginTop:'30%',
+      fontWeight:'bold',
+      
      
-      height:'100%',
+      height:'50%',
     },
 
     b:{
-      flex : 1,
+     
+      fontStyle:'italic',
+
+      zIndex:1,
+      height:'60%',
+      fontSize:50,
+      
+    
     }
   })
   export default styles
