@@ -3,20 +3,19 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react'
 import styles from "./style";
-
 const Stack = createNativeStackNavigator();
 export default function () {
 return (
 
 
 <>
-
 <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-
+  <Stack.Navigator 
+  initialRouteName='Home'>
+    <Stack.Screen name='Detail' component={DetailScreen}/>
+    <Stack.Screen options={{title : 'raj'}} name='Home' component={HomeScreen}/>
+  </Stack.Navigator>
+</NavigationContainer>
 
 {/* <View>
 <Text style = {{margin:50}} onPress={()=> {Linking.openURL('https://google.com')}}>

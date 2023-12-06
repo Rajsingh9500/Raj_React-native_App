@@ -1,6 +1,6 @@
 import { StyleSheet, Stylesheet } from 'react-native'
   const styles =   StyleSheet.create({
-/*   a:{
+ /*  a:{
 
     flexDirection:'row',
   
@@ -37,7 +37,7 @@ import { StyleSheet, Stylesheet } from 'react-native'
       
     ]
   },
- */
+
 srl:{
   flex:1,
   flexDirection: 'row',
@@ -60,7 +60,7 @@ srl1:{
     
     justifyContent:'center',
     alignItems:'center',
-/*    elevation : 5, */
+
    
   },
   img1:{
@@ -75,8 +75,14 @@ srl1:{
     
     justifyContent:'center',
     alignItems:'center',
-/*    elevation : 5, */
+
    
+  } */
+
+  navigate : {
+    flex : 1,
+    
+
   }
 })
 
