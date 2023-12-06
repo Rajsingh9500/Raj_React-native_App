@@ -3,9 +3,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react'
 import styles from "./style";
+import HomeScreen from './src/pages/HomeScreen';
+import DetailScreen from './src/pages/DetailScreen';
 const Stack = createNativeStackNavigator();
 export default function () {
+  
 return (
+
 
 
 <>
