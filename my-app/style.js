@@ -6,18 +6,16 @@ import{ StyleSheet} from "react-native";
          backgroundColor:'red',
     },
     a:{
-        flex:1,
-       /*  justifyContent:"center",
-       /*  */ alignItems:'center', 
-       height:'50%',
-       width:'50%',
-    },
-    img:{
-        height:400,
+        height:500,
         width:300,
-        
+    },
 
+
+    img:{
+        
+     height:'100%',
+     width:'100%'
     }
 
- })
+ }) 
  export default styles
