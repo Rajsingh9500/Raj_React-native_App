@@ -9,6 +9,8 @@ import{ StyleSheet} from "react-native";
         flex:1,
        /*  justifyContent:"center",
        /*  */ alignItems:'center', 
+       height:'50%',
+       width:'50%',
     },
     img:{
         height:400,
