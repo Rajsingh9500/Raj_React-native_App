@@ -7,7 +7,7 @@ import styles from '../../style'
 export default function DetailScreen({navigation , route}) {
    const [obj , setObj] = useState(route.params)
   return (
-    console.log(obj),
+ /*    console.log(obj), */
     <View style = {{flex:1, alignItems:'center' }}>
       <Text>{obj.id} DetailScreen{obj.arr   }</Text>
       <Text>DetailScreen</Text>
