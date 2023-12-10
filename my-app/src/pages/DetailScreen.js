@@ -13,7 +13,7 @@ export default function DetailScreen({navigation , route}) {
       <Text>DetailScreen</Text>
       <Button title='Home' onPress={()=>navigation.navigate('Home') }></Button>
      <Image style = {{height : 400,width:300}} source={require('../../assets/img2.jpg')}></Image>
-    
+    <Button title='Text' onPress={()=>navigation.navigate('Text')}></Button>
     </View>
   )
 }
