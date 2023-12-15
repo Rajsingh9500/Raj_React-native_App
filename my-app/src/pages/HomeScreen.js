@@ -25,7 +25,7 @@ export default function HomeScreen({navigation}) {
 }}}/>
 <Text>{count}</Text>
           
-      <Button title='Detail' onPress={()=>navigation.navigate('Detail', {id: 'id1', arr :[23,44,55,32,5],name: 'custome header'})}/>
+      <Button title='Detail' onPress={()=>navigation.navigate('Detail', {id: 'id1', arr :[23,44,55,32,5]})}/>
         <TouchableOpacity onPress={(e)=>{setName({...e , b:55})}} style={styles.a}>
             <Image style = {styles.img}  source={require('../../assets/img1.jpg')}/>
         </TouchableOpacity>
